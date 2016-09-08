@@ -75,5 +75,5 @@ mysql -u root -p123456 -e 'SHOW /*!50000 GLOBAL */ STATUS LIKE "Created_tmp%"'
 mysql -u root -p123456 -e 'SHOW /*!50000 GLOBAL */ STATUS LIKE "Binlog_cache%"'
 
 #mysql nnodb_log_waits 量:Innodb_log_waits 状态变量直接反应出 Innodb Log Buffer 空间不足造成等待的次数
-mysql -u root -p123456 -e 'SHOW /*!50000 GLOBAL */ STATUS LIKE "Innodb_log_waits'
+mysql -u root -p123456 -e 'SHOW /*!50000 GLOBAL */ STATUS LIKE "Innodb_log_waits"'
 
